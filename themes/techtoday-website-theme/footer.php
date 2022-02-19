@@ -11,24 +11,45 @@
 
 ?>
 
-	<footer id="colophon" class="site-footer">
-		<div class="site-info">
-			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'techtoday-website-theme' ) ); ?>">
-				<?php
-				/* translators: %s: CMS name, i.e. WordPress. */
-				printf( esc_html__( 'Proudly powered by %s', 'techtoday-website-theme' ), 'WordPress' );
-				?>
-			</a>
-			<span class="sep"> | </span>
-				<?php
-				/* translators: 1: Theme name, 2: Theme author. */
-				printf( esc_html__( 'Theme: %1$s by %2$s.', 'techtoday-website-theme' ), 'techtoday-website-theme', '<a href="https://pranavgera.com/">Pranav Gera</a>' );
-				?>
-		</div><!-- .site-info -->
-	</footer><!-- #colophon -->
+<footer id="colophon" class="site-footer">
+	<div class="footer">
+		<section>
+		<?php
+			the_custom_logo();
+		?>
+			<p>At TECHTODAY, our purpose is to enrich lives through technology. We do that by leveraging our unique customers’ everyday needs, whether they come to us online, visit our stores or invite us into their homes.
+
+</p>
+		</section>
+		<section>
+			<h3>LINKS</h3>
+			<a href="#">Home</a>
+			<a href="#">About Us</a>
+			<a href="#">Blog</a>
+			<a href="#">Contact Us</a>
+		</section>
+		<section>
+			<h3>OTHER</h3>
+			<a href="#">Privacy Policy</a>
+			<a href="#">Terms & Conditions</a>
+			<a href="#">Cookie Policy</a>
+		</section>
+		<section>
+			<h3>ANY QUESTIONS?</h3>
+			<a href="emailto:support@websitename.com"><span><i
+						class="fa fa-envelope"></i></span><span>info@techtoday.com</span></a>
+			<a href="tel:xxxxxxxxx"><span><i class="fa fa-phone"></i></span><span>(+1)-123-456-1890</span></a>
+		</section>
+	</div>
+</footer><!-- #colophon -->
+<div class="sub-footer">
+Copyright ©2021 All rights reserved | TECHTODAY
+</div>
+
 </div><!-- #page -->
 
 <?php wp_footer(); ?>
 
 </body>
+
 </html>
