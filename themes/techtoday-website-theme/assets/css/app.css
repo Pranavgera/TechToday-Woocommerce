@@ -1,0 +1,237 @@
+body{
+    font-family:poppins;
+}
+
+.entry-title{
+    visibility:hidden;
+}
+
+
+/* # General
+================================ */
+
+body {
+    font-family: "Open Sans", Helvetica, sans-serif;
+  }
+  
+  /* # Header, Main Menu
+  ================================ */
+  
+  .navbar {
+    opacity: 1;
+    margin-bottom: 0;
+    background-color: #fff;
+    transition: all 0.2s ease-out;
+  }
+  
+  .navbar-container {
+      position: relative;
+  }
+
+  .navbar-header{
+      
+  }
+  
+  .navbar .navbar-nav li a {
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #6ebeff;
+    transition: all 0.2s ease-out;
+  }
+  
+  .navbar-brand {
+    font-size: 25px;
+    transition: all 0.2s ease-out;
+      color: rgba(200,100,0,0.8);
+  }
+  
+  .navbar-scroll {
+    opacity: 1;
+  }
+  
+  #top-social-menu {
+    display: none;
+  }
+  
+  
+  @media (min-width: 768px) {
+    .navbar {
+      height: 120px;
+    }
+  
+    .navbar-nav>li>a {
+      padding: 0;
+      margin-top: 35px;
+      margin-left: 50px;
+      line-height: 70px;
+    }
+  
+    .navbar-brand {
+      font-size: 28px;
+      padding: 0;
+      height: 120px;
+      line-height: 120px;
+    }
+  
+    #top-social-menu {
+      display: initial;
+    }
+  
+    /* Navbar when scrolled */
+  
+    .navbar-scroll {
+      height: 70px;
+    }
+  
+    .navbar-scroll #top-social-menu {
+      display: none;
+      transition: all 0.2s ease-out;
+    }
+  
+    .navbar-scroll .navbar-brand {
+      height: 70px;
+      line-height: 70px;
+    }
+  
+    .navbar-scroll .navbar-nav>li>a {
+      opacity: 1;
+      padding: 0;
+      margin-top: 0;
+    }
+  }
+  
+  /* # Hover Link Effect
+  ================================ */
+  @media (min-width: 768px) {
+    .navbar-nav>li>a::after {
+      position: absolute;
+      top: 80%;
+      left: 0;
+      width: 100%;
+      height: 1px;
+      background: #2E1C05;
+      content: '';
+      opacity: 0;
+      transition: height 0.3s, opacity 0.3s, transform 0.3s;
+      transform: translateY(-10px);
+    }
+  
+    .navbar-nav>li>a:hover::after,
+    .navbar-nav>li>a:focus::after {
+      height: 2px;
+      opacity: 1;
+      transform: translateY(0px);
+    }
+  }
+  
+  /* # Social menu
+  ================================ */
+  
+  #top-social-menu {
+    position: absolute;
+    top: 7px;
+    right: 0;
+    font-size: 12px;
+    z-index: 101;
+    padding-right: 0px;
+    list-style: none;
+    color: #2E1C05;
+    transition: all 0.2s ease-out;
+  }
+  
+  #top-social-menu li {
+    float: left;
+    padding: 10px 15px;
+  }
+  
+  #top-social-menu li:last-child {
+    padding-right: 0;
+  }
+  
+  #top-social-menu li a {
+    text-decoration: none;
+    color: #2E1C05;
+  }
+  
+  #top-social-menu li a:hover {
+    text-decoration: none;
+    color: #543A1A;
+  }
+  
+  #top-social-menu i {
+       font-size: 16px;
+    
+    transition: all 0.2s ease-in;
+  }
+  
+  #top-social-menu i:hover {
+    text-decoration: none;
+    color: #543A1A;
+  }
+  
+ /*Footer*/
+
+ .footer{
+    background-color:#92ceff;
+    font-family: poppins;
+    width:100%;
+    display:flex;
+    color:white;
+    align-items:top;
+    padding:2rem 0;
+    }
+    
+    .footer section{
+    padding:1rem 2rem;
+    width:100%;
+    vertical-align:top;
+    }
+    
+    .footer section h3{
+    color:var(--white);
+    }
+    
+    .footer section a{
+    color:var(--gray);
+    display:flex;
+    align-items:center;
+    white-space:nowrap;
+    margin:15px 0;
+    }
+    
+    .footer section a:hover{
+    color:var(--white);
+    }
+    
+    .footer section:nth-child(2) a:before,.footer section:nth-child(3) a:before{
+
+    margin-right:5px;
+    color:var(--white);
+    }
+    
+    .footer section a span{
+    margin:0 10px;
+    }
+    
+    .sub-footer{
+    background-color:#0A1128;
+    text-align:Center;
+    color:white;
+    padding:1rem 0;
+    }
+    
+    @media (max-width:1020px){
+    .footer{
+    display:block;
+    }
+    .footer section{
+    padding:1rem 1rem;
+    }
+    .footer section:nth-child(2), .footer section:nth-child(3){
+    width:49%;
+    display:inline-block;
+    }
+    }
+    
+    
