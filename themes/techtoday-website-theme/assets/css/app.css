@@ -28,14 +28,20 @@ body {
       position: relative;
   }
 
-  .navbar-header{
-      
+  .entry-header{
+      display: none;
   }
-  
-  .navbar .navbar-nav li a {
+
+  .menu a{
     font-size: 18px;
     font-weight: bold;
-    text-transform: uppercase;
+    color: #6ebeff;
+    transition: all 0.2s ease-out;
+  }
+  
+  .navbar .navbar-nav li{
+    font-size: 18px;
+    font-weight: bold;
     color: #6ebeff;
     transition: all 0.2s ease-out;
   }
@@ -139,6 +145,12 @@ body {
     color: #2E1C05;
     transition: all 0.2s ease-out;
   }
+
+  figcaption {
+      color:black;
+      font-size: 24px !important;
+      font-weight: bold;
+  }
   
   #top-social-menu li {
     float: left;
@@ -170,16 +182,22 @@ body {
     color: #543A1A;
   }
   
+  .has-background{
+      width: 100%;
+  }
  /*Footer*/
 
  .footer{
     background-color:#92ceff;
     font-family: poppins;
+    font-weight: 500;
     width:100%;
     display:flex;
     color:white;
-    align-items:top;
-    padding:2rem 0;
+    align-items:center;
+    justify-content: space-between;
+    padding:1rem 0;
+    height:max-content;
     }
     
     .footer section{
@@ -190,6 +208,7 @@ body {
     
     .footer section h3{
     color:var(--white);
+    font-weight: 700
     }
     
     .footer section a{
@@ -235,3 +254,12 @@ body {
     }
     
     
+    #mainHeader{
+        display:flex;
+        justify-content:space-between;
+        align-items:center;
+        padding-top:0.5rem;
+        padding-bottom:0.5rem;
+        padding-left:5rem;
+        padding-right:5rem;
+    }

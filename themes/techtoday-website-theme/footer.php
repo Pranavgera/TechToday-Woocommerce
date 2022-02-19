@@ -18,7 +18,6 @@
 			the_custom_logo();
 		?>
 			<p>At TECHTODAY, our purpose is to enrich lives through technology. We do that by leveraging our unique customers’ everyday needs, whether they come to us online, visit our stores or invite us into their homes.
-
 </p>
 		</section>
 		<section>
