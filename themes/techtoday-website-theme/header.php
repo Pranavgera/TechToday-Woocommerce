@@ -25,9 +25,11 @@
 <div id="page" class="site">
 	<a class="skip-link screen-reader-text" href="#primary"><?php esc_html_e( 'Skip to content', 'techtoday-website-theme' ); ?></a>
 
-	<header id="masthead" class="site-header">
-		<div class="site-branding">
-			<?php
+	<header>
+		<nav id="main-navbar" class="navbar navbar-default navbar-fixed-top">
+			<div class="container navbar-container">
+				<div class="navbar-header nav navbar-nav">
+				<?php
 			the_custom_logo();
 			if ( is_front_page() && is_home() ) :
 				?>
@@ -43,16 +45,23 @@
 				?>
 				<p class="site-description"><?php echo $techtoday_website_theme_description; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?></p>
 			<?php endif; ?>
-		</div><!-- .site-branding -->
-
-		<nav id="site-navigation" class="main-navigation">
-			<?php
-			wp_nav_menu(
-				array(
-					'theme_location' => 'menu-1',
-					'menu_id'        => 'primary-menu',
-				)
-			);
-			?>
-		</nav><!-- #site-navigation -->
-	</header><!-- #masthead -->
+						<?php
+							wp_nav_menu(
+								array(
+									'theme_location' => 'menu-1',
+									'menu_id'        => 'primary-menu',
+								)
+							);
+						?>
+				</div>
+				<div class="top-social">
+					<ul id="top-social-menu">
+						<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+						<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+						<li><a href="#">About</a></li>
+						<li><a href="#">Investors</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</header>
