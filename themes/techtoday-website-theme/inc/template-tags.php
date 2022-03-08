@@ -33,7 +33,7 @@ if ( ! function_exists( 'techtoday_website_theme_posted_on' ) ) :
 
 		echo '<span class="posted-on">' . $posted_on . '</span>'; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
 
-	}
+	}	
 endif;
 
 if ( ! function_exists( 'techtoday_website_theme_posted_by' ) ) :
