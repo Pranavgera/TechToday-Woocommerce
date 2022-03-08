@@ -56,7 +56,8 @@ function techtoday_website_theme_setup() {
 	function wpb_custom_new_menu() {
 		register_nav_menus(
 		  array(
-			'my-store-menu' => __( 'My Store Menu' )
+			'my-store-menu' => __( 'My Store Menu' ),
+			'my-top-menu' => __( 'My Top Bar Menu' )
 		  )
 		);
 	  }
@@ -130,6 +131,27 @@ function techtoday_website_theme_widgets_init() {
 			'after_title'   => '</h2>',
 		)
 	);
+
+	register_sidebar(
+        array(
+            'name'             =>   esc_html__( 'social menu', 'techtoday-website-theme' ),
+            'id'               =>   'social-menu',
+            'description'	   =>   esc_html__('Add widget', 'techtoday-website-theme'),
+
+        )
+    );
+
+	register_sidebar(
+        array(
+            'name'             =>   esc_html__( 'account menu', 'techtoday-website-theme' ),
+            'id'               =>   'account-menu',
+            'description'	   =>   esc_html__('Column One', 'techtoday-website-theme'),
+            'before_title'	   =>   '<h4 class="title">',
+            'after_title' 	   =>   '</h4>',
+            'before_widget'	   =>   '<div id="%1$s" class="widget %2$s">',
+            'after_widget'     =>   '</div>'
+        )
+    );
 }
 add_action( 'widgets_init', 'techtoday_website_theme_widgets_init' );
 
