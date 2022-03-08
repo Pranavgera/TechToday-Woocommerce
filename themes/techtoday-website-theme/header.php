@@ -25,12 +25,13 @@
 	<?php wp_body_open(); ?>
 	<div class="top-bar">
 		<div class="top-bar-home">
-		<a href="emailto:portfolio@pranavgera.com">
-			<span>
-				<i class="fa fa-envelope"></i>
-			</span>
-			<span>Email: info@techtoday.com</span><br>
-		</a><a href="tel:xxxxxxxxx"><span><i class="fa fa-phone"></i></span><span>Phone: (+1)-123-456-1890</span></a>
+			<a href="emailto:portfolio@pranavgera.com">
+				<span>
+					<i class="fa fa-envelope"></i>
+				</span>
+				<span>Email: info@techtoday.com</span><br>
+			</a><a href="tel:xxxxxxxxx"><span><i class="fa fa-phone"></i></span><span>Phone:
+					(+1)-123-456-1890</span></a>
 		</div>
 		<div class="top-bar-title">
 			<?php
@@ -38,6 +39,7 @@
 				'theme_location' => 'my-store-menu', 
 				'container_class' => 'custom-menu-class' ) ); 
 			?>
+			<a href="<?php echo wc_get_cart_url(); ?>"><i class="fas fa-shopping-cart cart-icon"></i></a>
 		</div>
 	</div>
 	<div class="content">
