@@ -152,6 +152,29 @@ function techtoday_website_theme_widgets_init() {
             'after_widget'     =>   '</div>'
         )
     );
+	register_sidebar(
+        array(
+            'name'             =>   esc_html__( 'policies menu', 'techtoday-website-theme' ),
+            'id'               =>   'policy-menu',
+            'description'	   =>   esc_html__('Column One', 'techtoday-website-theme'),
+            'before_title'	   =>   '<h4 class="title">',
+            'after_title' 	   =>   '</h4>',
+            'before_widget'	   =>   '<div id="%1$s" class="widget %2$s">',
+            'after_widget'     =>   '</div>'
+        )
+    );
+
+	register_sidebar(
+        array(
+            'name'             =>   esc_html__( 'contact menu', 'techtoday-website-theme' ),
+            'id'               =>   'contact-menu',
+            'description'	   =>   esc_html__('Column One', 'techtoday-website-theme'),
+            'before_title'	   =>   '<h4 class="title">',
+            'after_title' 	   =>   '</h4>',
+            'before_widget'	   =>   '<div id="%1$s" class="widget %2$s">',
+            'after_widget'     =>   '</div>'
+        )
+    );
 }
 add_action( 'widgets_init', 'techtoday_website_theme_widgets_init' );
 
