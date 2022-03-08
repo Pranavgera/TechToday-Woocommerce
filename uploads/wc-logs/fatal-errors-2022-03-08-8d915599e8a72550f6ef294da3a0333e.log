@@ -48,3 +48,23 @@
 
 2022-03-08T07:10:24+00:00 CRITICAL syntax error, unexpected end of file in C:\Users\prana\Local Sites\projectdelieverabletest\app\public\wp-content\themes\techtoday-website-theme\inc\woocommerce.php on line 16
 
+2022-03-08T13:29:05+00:00 CRITICAL Uncaught Error: Call to undefined function wc_get_profile_url() in C:\Users\prana\Local Sites\projectdelieverabletest\app\public\wp-content\themes\techtoday-website-theme\header.php:41
+Stack trace:
+#0 C:\Users\prana\Local Sites\projectdelieverabletest\app\public\wp-includes\template.php(770): require_once()
+#1 C:\Users\prana\Local Sites\projectdelieverabletest\app\public\wp-includes\template.php(716): load_template('C:\\Users\\prana\\...', true, Array)
+#2 C:\Users\prana\Local Sites\projectdelieverabletest\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\Users\prana\Local Sites\projectdelieverabletest\app\public\wp-content\themes\techtoday-website-theme\page.php(15): get_header()
+#4 C:\Users\prana\Local Sites\projectdelieverabletest\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\prana\\...')
+#5 C:\Users\prana\Local Sites\projectdelieverabletest\app\public\wp-blog-header.php(19): require_once('C:\\Users\\prana\\...')
+#6 C:\Users\prana\Local S in C:\Users\prana\Local Sites\projectdelieverabletest\app\public\wp-content\themes\techtoday-website-theme\header.php on line 41
+
+2022-03-08T13:36:27+00:00 CRITICAL Uncaught Error: Call to undefined function aws_get_search_form() in C:\Users\prana\Local Sites\projectdelieverabletest\app\public\wp-content\themes\techtoday-website-theme\header.php:38
+Stack trace:
+#0 C:\Users\prana\Local Sites\projectdelieverabletest\app\public\wp-includes\template.php(770): require_once()
+#1 C:\Users\prana\Local Sites\projectdelieverabletest\app\public\wp-includes\template.php(716): load_template('C:\\Users\\prana\\...', true, Array)
+#2 C:\Users\prana\Local Sites\projectdelieverabletest\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\Users\prana\Local Sites\projectdelieverabletest\app\public\wp-content\themes\techtoday-website-theme\page.php(15): get_header()
+#4 C:\Users\prana\Local Sites\projectdelieverabletest\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\prana\\...')
+#5 C:\Users\prana\Local Sites\projectdelieverabletest\app\public\wp-blog-header.php(19): require_once('C:\\Users\\prana\\...')
+#6 C:\Users\prana\Local  in C:\Users\prana\Local Sites\projectdelieverabletest\app\public\wp-content\themes\techtoday-website-theme\header.php on line 38
+
