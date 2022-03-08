@@ -53,6 +53,15 @@ function techtoday_website_theme_setup() {
 		)
 	);
 
+	function wpb_custom_new_menu() {
+		register_nav_menus(
+		  array(
+			'my-store-menu' => __( 'My Store Menu' )
+		  )
+		);
+	  }
+	  add_action( 'init', 'wpb_custom_new_menu' );
+
 	/*
 		* Switch default core markup for search form, comment form, and comments
 		* to output valid HTML5.
@@ -135,6 +144,9 @@ function techtoday_website_theme_scripts() {
 	wp_enqueue_script( 'what-input-script', get_template_directory_uri() . '/assets/js/vendor/what-input.js', array( 'jquery'), '6.7.4', true);
 	wp_enqueue_script( 'foundations-script', get_template_directory_uri() . '/assets/js/vendor/foundation.min.js', array( 'jquery', 'what-input-script' ), '6.7.4', true);
 
+		
+    wp_enqueue_script( 'wpb_togglemenu', get_template_directory_uri() . '/js/navigation.js', array('jquery'), '20160909', true );
+
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );
 	}
@@ -160,3 +172,9 @@ require get_template_directory() . '/inc/customizer.php';
  * Customizer additions.
  */
 require get_template_directory() . '/inc/block-editor.php';
+
+/**
+ * WooCommerce additions.
+ */
+require get_template_directory() . '/inc/woocommerce.php';
+
