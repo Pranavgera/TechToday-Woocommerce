@@ -1,0 +1,79 @@
+2022-03-08T06:15:00+00:00 CRITICAL syntax error, unexpected '{', expecting '(' in C:\Users\prana\Local Sites\projectdelieverabletest\app\public\wp-content\themes\techtoday-website-theme\inc\woocommerce.php on line 7
+
+2022-03-08T06:16:35+00:00 CRITICAL syntax error, unexpected ';', expecting ')' in C:\Users\prana\Local Sites\projectdelieverabletest\app\public\wp-content\themes\techtoday-website-theme\inc\woocommerce.php on line 13
+
+2022-03-08T06:21:00+00:00 CRITICAL syntax error, unexpected end of file in C:\Users\prana\Local Sites\projectdelieverabletest\app\public\wp-content\themes\techtoday-website-theme\inc\woocommerce.php on line 16
+
+2022-03-08T06:22:35+00:00 CRITICAL syntax error, unexpected end of file in C:\Users\prana\Local Sites\projectdelieverabletest\app\public\wp-content\themes\techtoday-website-theme\inc\woocommerce.php on line 16
+
+2022-03-08T06:24:31+00:00 CRITICAL syntax error, unexpected end of file in C:\Users\prana\Local Sites\projectdelieverabletest\app\public\wp-content\themes\techtoday-website-theme\inc\woocommerce.php on line 16
+
+2022-03-08T06:26:35+00:00 CRITICAL syntax error, unexpected end of file in C:\Users\prana\Local Sites\projectdelieverabletest\app\public\wp-content\themes\techtoday-website-theme\inc\woocommerce.php on line 16
+
+2022-03-08T06:28:35+00:00 CRITICAL syntax error, unexpected end of file in C:\Users\prana\Local Sites\projectdelieverabletest\app\public\wp-content\themes\techtoday-website-theme\inc\woocommerce.php on line 16
+
+2022-03-08T06:30:35+00:00 CRITICAL syntax error, unexpected end of file in C:\Users\prana\Local Sites\projectdelieverabletest\app\public\wp-content\themes\techtoday-website-theme\inc\woocommerce.php on line 16
+
+2022-03-08T06:32:35+00:00 CRITICAL syntax error, unexpected end of file in C:\Users\prana\Local Sites\projectdelieverabletest\app\public\wp-content\themes\techtoday-website-theme\inc\woocommerce.php on line 16
+
+2022-03-08T06:34:35+00:00 CRITICAL syntax error, unexpected end of file in C:\Users\prana\Local Sites\projectdelieverabletest\app\public\wp-content\themes\techtoday-website-theme\inc\woocommerce.php on line 16
+
+2022-03-08T06:36:35+00:00 CRITICAL syntax error, unexpected end of file in C:\Users\prana\Local Sites\projectdelieverabletest\app\public\wp-content\themes\techtoday-website-theme\inc\woocommerce.php on line 16
+
+2022-03-08T06:38:35+00:00 CRITICAL syntax error, unexpected end of file in C:\Users\prana\Local Sites\projectdelieverabletest\app\public\wp-content\themes\techtoday-website-theme\inc\woocommerce.php on line 16
+
+2022-03-08T06:40:35+00:00 CRITICAL syntax error, unexpected end of file in C:\Users\prana\Local Sites\projectdelieverabletest\app\public\wp-content\themes\techtoday-website-theme\inc\woocommerce.php on line 16
+
+2022-03-08T06:42:36+00:00 CRITICAL syntax error, unexpected end of file in C:\Users\prana\Local Sites\projectdelieverabletest\app\public\wp-content\themes\techtoday-website-theme\inc\woocommerce.php on line 16
+
+2022-03-08T06:44:35+00:00 CRITICAL syntax error, unexpected end of file in C:\Users\prana\Local Sites\projectdelieverabletest\app\public\wp-content\themes\techtoday-website-theme\inc\woocommerce.php on line 16
+
+2022-03-08T06:46:35+00:00 CRITICAL syntax error, unexpected end of file in C:\Users\prana\Local Sites\projectdelieverabletest\app\public\wp-content\themes\techtoday-website-theme\inc\woocommerce.php on line 16
+
+2022-03-08T06:48:35+00:00 CRITICAL syntax error, unexpected end of file in C:\Users\prana\Local Sites\projectdelieverabletest\app\public\wp-content\themes\techtoday-website-theme\inc\woocommerce.php on line 16
+
+2022-03-08T06:50:35+00:00 CRITICAL syntax error, unexpected end of file in C:\Users\prana\Local Sites\projectdelieverabletest\app\public\wp-content\themes\techtoday-website-theme\inc\woocommerce.php on line 16
+
+2022-03-08T06:52:35+00:00 CRITICAL syntax error, unexpected end of file in C:\Users\prana\Local Sites\projectdelieverabletest\app\public\wp-content\themes\techtoday-website-theme\inc\woocommerce.php on line 16
+
+2022-03-08T06:54:35+00:00 CRITICAL syntax error, unexpected end of file in C:\Users\prana\Local Sites\projectdelieverabletest\app\public\wp-content\themes\techtoday-website-theme\inc\woocommerce.php on line 16
+
+2022-03-08T07:07:17+00:00 CRITICAL syntax error, unexpected end of file in C:\Users\prana\Local Sites\projectdelieverabletest\app\public\wp-content\themes\techtoday-website-theme\inc\woocommerce.php on line 16
+
+2022-03-08T07:09:17+00:00 CRITICAL syntax error, unexpected end of file in C:\Users\prana\Local Sites\projectdelieverabletest\app\public\wp-content\themes\techtoday-website-theme\inc\woocommerce.php on line 16
+
+2022-03-08T07:10:22+00:00 CRITICAL syntax error, unexpected end of file in C:\Users\prana\Local Sites\projectdelieverabletest\app\public\wp-content\themes\techtoday-website-theme\inc\woocommerce.php on line 16
+
+2022-03-08T07:10:23+00:00 CRITICAL syntax error, unexpected end of file in C:\Users\prana\Local Sites\projectdelieverabletest\app\public\wp-content\themes\techtoday-website-theme\inc\woocommerce.php on line 16
+
+2022-03-08T07:10:24+00:00 CRITICAL syntax error, unexpected end of file in C:\Users\prana\Local Sites\projectdelieverabletest\app\public\wp-content\themes\techtoday-website-theme\inc\woocommerce.php on line 16
+
+2022-03-08T13:29:05+00:00 CRITICAL Uncaught Error: Call to undefined function wc_get_profile_url() in C:\Users\prana\Local Sites\projectdelieverabletest\app\public\wp-content\themes\techtoday-website-theme\header.php:41
+Stack trace:
+#0 C:\Users\prana\Local Sites\projectdelieverabletest\app\public\wp-includes\template.php(770): require_once()
+#1 C:\Users\prana\Local Sites\projectdelieverabletest\app\public\wp-includes\template.php(716): load_template('C:\\Users\\prana\\...', true, Array)
+#2 C:\Users\prana\Local Sites\projectdelieverabletest\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\Users\prana\Local Sites\projectdelieverabletest\app\public\wp-content\themes\techtoday-website-theme\page.php(15): get_header()
+#4 C:\Users\prana\Local Sites\projectdelieverabletest\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\prana\\...')
+#5 C:\Users\prana\Local Sites\projectdelieverabletest\app\public\wp-blog-header.php(19): require_once('C:\\Users\\prana\\...')
+#6 C:\Users\prana\Local S in C:\Users\prana\Local Sites\projectdelieverabletest\app\public\wp-content\themes\techtoday-website-theme\header.php on line 41
+
+2022-03-08T13:36:27+00:00 CRITICAL Uncaught Error: Call to undefined function aws_get_search_form() in C:\Users\prana\Local Sites\projectdelieverabletest\app\public\wp-content\themes\techtoday-website-theme\header.php:38
+Stack trace:
+#0 C:\Users\prana\Local Sites\projectdelieverabletest\app\public\wp-includes\template.php(770): require_once()
+#1 C:\Users\prana\Local Sites\projectdelieverabletest\app\public\wp-includes\template.php(716): load_template('C:\\Users\\prana\\...', true, Array)
+#2 C:\Users\prana\Local Sites\projectdelieverabletest\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\Users\prana\Local Sites\projectdelieverabletest\app\public\wp-content\themes\techtoday-website-theme\page.php(15): get_header()
+#4 C:\Users\prana\Local Sites\projectdelieverabletest\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\prana\\...')
+#5 C:\Users\prana\Local Sites\projectdelieverabletest\app\public\wp-blog-header.php(19): require_once('C:\\Users\\prana\\...')
+#6 C:\Users\prana\Local  in C:\Users\prana\Local Sites\projectdelieverabletest\app\public\wp-content\themes\techtoday-website-theme\header.php on line 38
+
+2022-03-08T16:02:04+00:00 CRITICAL Uncaught Error: Call to undefined function next_post_thumbnail() in C:\Users\prana\Local Sites\projectdelieverabletest\app\public\wp-content\themes\techtoday-website-theme\template-parts\content.php:15
+Stack trace:
+#0 C:\Users\prana\Local Sites\projectdelieverabletest\app\public\wp-includes\template.php(772): require()
+#1 C:\Users\prana\Local Sites\projectdelieverabletest\app\public\wp-includes\template.php(716): load_template('C:\\Users\\prana\\...', false, Array)
+#2 C:\Users\prana\Local Sites\projectdelieverabletest\app\public\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#3 C:\Users\prana\Local Sites\projectdelieverabletest\app\public\wp-content\themes\techtoday-website-theme\index.php(40): get_template_part('template-parts/...', 'post')
+#4 C:\Users\prana\Local Sites\projectdelieverabletest\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\prana\\...')
+#5 C:\Users\prana\Local Sites\projectdelieverabletest\app\public\wp-blog-header.php(19): require_once in C:\Users\prana\Local Sites\projectdelieverabletest\app\public\wp-content\themes\techtoday-website-theme\template-parts\content.php on line 15
+

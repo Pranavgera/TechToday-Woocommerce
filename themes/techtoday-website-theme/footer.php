@@ -20,24 +20,21 @@
 			<p>At TECHTODAY, our purpose is to enrich lives through technology. We do that by leveraging our unique customers’ everyday needs, whether they come to us online, visit our stores or invite us into their homes.
 </p>
 		</section>
-		<section>
-			<h3>LINKS</h3>
-			<a href="#">Home</a>
-			<a href="#">About Us</a>
-			<a href="#">Blog</a>
-			<a href="#">Contact Us</a>
+		<section class="contentMenu">
+		<h3>MY ACCOUNT</h3>
+		<?php
+			wp_nav_menu( array( 
+				'theme_location' => 'my-store-menu', ) ); 
+			?>
 		</section>
 		<section>
-			<h3>OTHER</h3>
-			<a href="#">Privacy Policy</a>
-			<a href="#">Terms & Conditions</a>
-			<a href="#">Cookie Policy</a>
+		<h3>OTHER</h3>
+			<?php dynamic_sidebar('policy-menu');?>
 		</section>
 		<section>
-			<h3>ANY QUESTIONS?</h3>
-			<a href="emailto:support@websitename.com"><span><i
-						class="fa fa-envelope"></i></span><span>info@techtoday.com</span></a>
-			<a href="tel:xxxxxxxxx"><span><i class="fa fa-phone"></i></span><span>(+1)-123-456-1890</span></a>
+		<h3>CONTACT US</h3>
+			<?php dynamic_sidebar( 'contact-menu');?>
+			<?php dynamic_sidebar( 'social-menu');?>
 		</section>
 	</div>
 </footer><!-- #colophon -->

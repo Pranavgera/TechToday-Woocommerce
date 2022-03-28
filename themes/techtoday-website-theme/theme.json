@@ -25,8 +25,7 @@
     },
     "layout":{
         "contentSize":"1200px",
-        "wideSize":"1380px",
-        "maxSize":"max-width"
+        "wideSize":"1380px"
     }
 }
 }
