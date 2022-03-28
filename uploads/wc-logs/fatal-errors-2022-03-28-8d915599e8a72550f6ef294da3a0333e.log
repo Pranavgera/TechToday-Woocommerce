@@ -1,0 +1,20 @@
+2022-03-28T21:31:05+00:00 CRITICAL Uncaught Error: Call to undefined function techtoday_post_thumbnail() in C:\Users\prana\Local Sites\projectdelieverable3\app\public\wp-content\themes\techtoday-website-theme\template-parts\content-archive.php:15
+Stack trace:
+#0 C:\Users\prana\Local Sites\projectdelieverable3\app\public\wp-includes\template.php(772): require()
+#1 C:\Users\prana\Local Sites\projectdelieverable3\app\public\wp-includes\template.php(716): load_template('C:\\Users\\prana\\...', false, Array)
+#2 C:\Users\prana\Local Sites\projectdelieverable3\app\public\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#3 C:\Users\prana\Local Sites\projectdelieverable3\app\public\wp-content\themes\techtoday-website-theme\index.php(40): get_template_part('template-parts/...', 'post')
+#4 C:\Users\prana\Local Sites\projectdelieverable3\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\prana\\...')
+#5 C:\Users\prana\Local Sites\projectdelieverable3\app\public\wp-blog-header.php(19): require_once('C:\\Us in C:\Users\prana\Local Sites\projectdelieverable3\app\public\wp-content\themes\techtoday-website-theme\template-parts\content-archive.php on line 15
+
+2022-03-28T21:31:49+00:00 CRITICAL Uncaught Error: Call to undefined function techtoday_posted_on() in C:\Users\prana\Local Sites\projectdelieverable3\app\public\wp-content\themes\techtoday-website-theme\template-parts\content-archive.php:28
+Stack trace:
+#0 C:\Users\prana\Local Sites\projectdelieverable3\app\public\wp-includes\template.php(772): require()
+#1 C:\Users\prana\Local Sites\projectdelieverable3\app\public\wp-includes\template.php(716): load_template('C:\\Users\\prana\\...', false, Array)
+#2 C:\Users\prana\Local Sites\projectdelieverable3\app\public\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#3 C:\Users\prana\Local Sites\projectdelieverable3\app\public\wp-content\themes\techtoday-website-theme\index.php(40): get_template_part('template-parts/...', 'post')
+#4 C:\Users\prana\Local Sites\projectdelieverable3\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\prana\\...')
+#5 C:\Users\prana\Local Sites\projectdelieverable3\app\public\wp-blog-header.php(19): require_once('C:\\Users\\ in C:\Users\prana\Local Sites\projectdelieverable3\app\public\wp-content\themes\techtoday-website-theme\template-parts\content-archive.php on line 28
+
+2022-03-28T21:33:58+00:00 CRITICAL syntax error, unexpected '_posted_by' (T_STRING) in C:\Users\prana\Local Sites\projectdelieverable3\app\public\wp-content\themes\techtoday-website-theme\template-parts\content-archive.php on line 30
+
