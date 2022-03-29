@@ -1,5 +1,6 @@
 body{
     font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #c0ebff;
 }
 
 .entry-title{
@@ -33,7 +34,7 @@ body{
 .checkout-button {
   background-color:#2dbbfd !important;}
 
-.postStyle{
+/* .postStyle{
   display: flex;
   justify-content: space-around;
   height:80vh;
@@ -44,7 +45,7 @@ body{
 
 .postStyle img{
   width: 60%;
-}
+} */
 
 .main-navigation li {
   margin-top: 24px;
@@ -397,6 +398,82 @@ body{
     width:49%;
     display:inline-block;
     }
+    }.post-img img{
+      width:80%;
+    }
+    .post-img {
+      margin-top: 1.6rem;
+    }
+    .post-content{
+      margin-top: 2rem;
+    }
+    .nav-links{
+      display: flex;
+      justify-content: space-between;
+    }
+    .post-navigation{
+      margin: 2.5rem 0;
+    }
+    .nav-subtitle{
+      font-size:20px;
+      color:#3D3D3D;
+      font-weight:bold;
+    }
+    #submit{
+      background-color:#000000;
+      color:#fff;
+      width:150px;
+      height:35px;
+      border:none;
+      border-radius:100px;
+    }
+    
+    #submit a{
+      color:#fff;
+    }
+    
+    .blog-post-img img{
+      width:95%;
+    }
+    .blog-post-img{
+      padding-top: 0.3rem;
+    }
+    .entry-title{
+      margin: 0;
+    }
+    .entry-title h4{
+      margin: 0;
+    }
+    .blog-post-content{
+      margin-top: 0.5rem;
+    }
+    .blog-post-date{
+      margin-top: 0.3rem;
+    }
+    .blog-single-post{
+      margin-bottom:4.0rem;
+      background-color:#26b6f8b1;
+      padding: 1rem;
+
+    }
+    .next-sidebar{
+      border-left: 1px solid #DFDFDF ;
+      padding: 0 1.5rem;
+    }
+    .page-heading{
+      margin-bottom:2rem
+    }
+    .woocommerce #respond input#submit, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button{
+      color:white;
+      background:#5677FC;
+    }
+    
+    .woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt{
+      color:white;
+      background:#5677FC;
+    }
+    .post-date{
+      margin-top:0.44rem;
     }
     
     
@@ -488,4 +565,22 @@ body{
 
     .wp-block-post-title{
       font-size: 22px;
+    }
+    .post-title{
+      visibility:visible;
+      display: block;
+      text-transform:uppercase;
+      color: #ffffff;
+    }
+
+    .post-title a{
+      color: #ffffff !important;
+    }
+
+    .entry-date, .url{
+      color: #ffffff !important;
+    }
+
+    .updated{
+      display: none;
     }
