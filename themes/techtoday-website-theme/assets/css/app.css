@@ -437,7 +437,9 @@ body{
     }
     .blog-post-img{
       padding-top: 0.3rem;
+      margin-bottom:30px;
     }
+
     .entry-title{
       margin: 0;
     }
@@ -583,4 +585,14 @@ body{
 
     .updated{
       display: none;
+    }
+
+    .post-title-new{
+      visibility:visible;
+      display: block;
+      color: #26b6f8;
+    }
+
+    .post-title-new a{
+      color:#26b6f8 !important;
     }
