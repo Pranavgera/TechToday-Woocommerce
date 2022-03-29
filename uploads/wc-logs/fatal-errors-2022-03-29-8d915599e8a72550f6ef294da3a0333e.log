@@ -6,3 +6,11 @@
 
 2022-03-29T10:14:56+00:00 CRITICAL syntax error, unexpected 'techtoday_website_theme_posted' (T_STRING), expecting ';' or ',' in C:\Users\prana\Local Sites\projectdelieverable3\app\public\wp-content\themes\techtoday-website-theme\archive-TechToday_Event.php on line 31
 
+2022-03-29T11:00:16+00:00 CRITICAL syntax error, unexpected ')', expecting end of file in C:\Users\prana\Local Sites\projectdelieverable3\app\public\wp-content\themes\techtoday-website-theme\footer.php on line 45
+
+2022-03-29T11:00:55+00:00 CRITICAL syntax error, unexpected ')' in C:\Users\prana\Local Sites\projectdelieverable3\app\public\wp-content\themes\techtoday-website-theme\footer.php on line 45
+
+2022-03-29T11:01:19+00:00 CRITICAL syntax error, unexpected '=>' (T_DOUBLE_ARROW) in C:\Users\prana\Local Sites\projectdelieverable3\app\public\wp-content\themes\techtoday-website-theme\footer.php on line 56
+
+2022-03-29T11:18:15+00:00 CRITICAL Cannot use empty array elements in arrays in C:\Users\prana\Local Sites\projectdelieverable3\app\public\wp-content\themes\techtoday-website-theme\footer.php on line 42
+
