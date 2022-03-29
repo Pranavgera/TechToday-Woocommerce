@@ -1,8 +1,6 @@
 .wp-block-quote{
     color: blue;
 }
-
-
 .wp-block-quote.is-style-fancy-quote{
     color: red;
 }
@@ -16,6 +14,7 @@
     width: 190px;
 }
 
+/* Custom width for contact us page */
 .alignwide{
     width: 1200px;
     margin-left:auto;
