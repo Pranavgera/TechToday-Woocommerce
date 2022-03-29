@@ -46,7 +46,7 @@
 	</div>
 	<div id="page" class="site">
 		<a class="skip-link screen-reader-text"
-			href="#primary"><?php esc_html_e( 'Skip to content', 'techtoday-website-theme' ); ?></a>
+			href="#primary"><?php esc_html_e( 'Skip to content', 'techtoday' ); ?></a>
 		<header id="mainHeader">
 			<div id="logo">
 				<?php

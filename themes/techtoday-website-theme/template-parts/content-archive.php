@@ -17,9 +17,9 @@
 		<div class="cell large-9">
 			<?php
 			if ( is_singular() ) :
-				the_title( '<h4 class="entry-title">', '</h4>' );
+				the_title( '<h3 class="entry-title post-title">', '</h3>' );
 			else :
-				the_title( '<h4 class="entry-title"><a href="' . esc_url( get_permalink() ) . '" rel="bookmark">', '</a></h4>' );
+				the_title( '<h4 class="entry-title post-title"><a href="' . esc_url( get_permalink() ) . '" rel="bookmark">', '</a></h4>' );
 			endif;
 
 			if ( 'post' === get_post_type() ) :
@@ -33,7 +33,7 @@
 			<?php endif; ?>
 			<div class="blog-post-content">
 				<?php the_excerpt(); ?>
-				<button id="submit"><a class="movie-page" href="<?php the_permalink() ?>">Read More</a></button>
+				<button id="submit"><a  href="<?php the_permalink() ?>">Read More</a></button>
 			</div>
 		</div>
 		<header class="entry-header ">
