@@ -3,6 +3,7 @@ body{
     background-color: #c0ebff;
 }
 
+/* Disabled inorder to add a customised title using block */
 .entry-title{
     visibility:hidden;
     display: none;
@@ -15,6 +16,7 @@ body{
   text-align: center;
 }
 
+/* Adding some details to navigation and integrations for theme colors */
 .woocommerce-MyAccount-navigation{
   width:40%;
   list-style: none;
@@ -33,19 +35,6 @@ body{
 
 .checkout-button {
   background-color:#2dbbfd !important;}
-
-/* .postStyle{
-  display: flex;
-  justify-content: space-around;
-  height:80vh;
-  width: 90%;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.postStyle img{
-  width: 60%;
-} */
 
 .main-navigation li {
   margin-top: 24px;
@@ -332,6 +321,7 @@ body{
   
   .has-background{
       width: 100%;
+
   }
  /*Footer*/
 
@@ -379,6 +369,8 @@ body{
     .footer section a span{
     margin:0 10px;
     }
+
+    /* Adding Custom color choices to the copyright text */
     
     .sub-footer{
     background-color:#0A1128;
@@ -386,6 +378,8 @@ body{
     color:white;
     padding:1rem 0;
     }
+
+    /* For desktop and bigger screens */
     
     @media (max-width:1020px){
     .footer{
@@ -419,6 +413,7 @@ body{
       color:#3D3D3D;
       font-weight:bold;
     }
+    /* Designing the Button for the site globally */
     #submit{
       background-color:#000000;
       color:#fff;
@@ -431,6 +426,8 @@ body{
     #submit a{
       color:#fff;
     }
+
+    /* Designing Blog-Archive */
     
     .blog-post-img img{
       width:95%;
@@ -478,7 +475,7 @@ body{
       margin-top:0.44rem;
     }
     
-    
+    /* Customizing the header to match proposed designs */
     #mainHeader{
         display:flex;
         justify-content:space-between;
@@ -497,11 +494,12 @@ body{
     .contentMenu{
       display:flex;
       flex-direction:column;
+      max-height: 35vh;
     }
 
     .contentMenu ul, .contentMenu a {
       display:flex;
-      flex-direction:column;
+      flex-direction:row;
     }
 
     .blog-post-img img{
@@ -543,6 +541,10 @@ body{
     .size-post-thumbnail{
       width: 50%;
     }
+
+    /* Setting Up Content Height */
+
+    /* ! Making Some Random important changes */
     .content {
       height: 1vh;
     }
