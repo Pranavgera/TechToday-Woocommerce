@@ -24,9 +24,9 @@ function techtoday_website_theme_setup() {
 		* Make theme available for translation.
 		* Translations can be filed in the /languages/ directory.
 		* If you're building a theme based on TechToday, use a find and replace
-		* to change 'techtoday-website-theme' to the name of your theme in all the template files.
+		* to change 'techtoday' to the name of your theme in all the template files.
 		*/
-	load_theme_textdomain( 'techtoday-website-theme', get_template_directory() . '/languages' );
+	load_theme_textdomain( 'techtoday', get_template_directory() . '/languages' );
 
 	// Add default posts and comments RSS feed links to head.
 	add_theme_support( 'automatic-feed-links' );
@@ -49,7 +49,7 @@ function techtoday_website_theme_setup() {
 	// This theme uses wp_nav_menu() in one location.
 	register_nav_menus(
 		array(
-			'menu-1' => esc_html__( 'Primary', 'techtoday-website-theme' ),
+			'menu-1' => esc_html__( 'Primary', 'techtoday' ),
 		)
 	);
 
@@ -122,9 +122,9 @@ add_action( 'after_setup_theme', 'techtoday_website_theme_content_width', 0 );
 function techtoday_website_theme_widgets_init() {
 	register_sidebar(
 		array(
-			'name'          => esc_html__( 'Sidebar', 'techtoday-website-theme' ),
+			'name'          => esc_html__( 'Sidebar', 'techtoday' ),
 			'id'            => 'sidebar-1',
-			'description'   => esc_html__( 'Add widgets here.', 'techtoday-website-theme' ),
+			'description'   => esc_html__( 'Add widgets here.', 'techtoday' ),
 			'before_widget' => '<section id="%1$s" class="widget %2$s">',
 			'after_widget'  => '</section>',
 			'before_title'  => '<h2 class="widget-title">',
@@ -134,18 +134,18 @@ function techtoday_website_theme_widgets_init() {
 
 	register_sidebar(
         array(
-            'name'             =>   esc_html__( 'social menu', 'techtoday-website-theme' ),
+            'name'             =>   esc_html__( 'social menu', 'techtoday' ),
             'id'               =>   'social-menu',
-            'description'	   =>   esc_html__('Add widget', 'techtoday-website-theme'),
+            'description'	   =>   esc_html__('Add widget', 'techtoday'),
 
         )
     );
 
 	register_sidebar(
         array(
-            'name'             =>   esc_html__( 'account menu', 'techtoday-website-theme' ),
+            'name'             =>   esc_html__( 'account menu', 'techtoday' ),
             'id'               =>   'account-menu',
-            'description'	   =>   esc_html__('Column One', 'techtoday-website-theme'),
+            'description'	   =>   esc_html__('Column One', 'techtoday'),
             'before_title'	   =>   '<h4 class="title">',
             'after_title' 	   =>   '</h4>',
             'before_widget'	   =>   '<div id="%1$s" class="widget %2$s">',
@@ -154,9 +154,9 @@ function techtoday_website_theme_widgets_init() {
     );
 	register_sidebar(
         array(
-            'name'             =>   esc_html__( 'policies menu', 'techtoday-website-theme' ),
+            'name'             =>   esc_html__( 'policies menu', 'techtoday' ),
             'id'               =>   'policy-menu',
-            'description'	   =>   esc_html__('Column One', 'techtoday-website-theme'),
+            'description'	   =>   esc_html__('Column One', 'techtoday'),
             'before_title'	   =>   '<h4 class="title">',
             'after_title' 	   =>   '</h4>',
             'before_widget'	   =>   '<div id="%1$s" class="widget %2$s">',
@@ -166,9 +166,9 @@ function techtoday_website_theme_widgets_init() {
 
 	register_sidebar(
         array(
-            'name'             =>   esc_html__( 'contact menu', 'techtoday-website-theme' ),
+            'name'             =>   esc_html__( 'contact menu', 'techtoday' ),
             'id'               =>   'contact-menu',
-            'description'	   =>   esc_html__('Column One', 'techtoday-website-theme'),
+            'description'	   =>   esc_html__('Column One', 'techtoday'),
             'before_title'	   =>   '<h4 class="title">',
             'after_title' 	   =>   '</h4>',
             'before_widget'	   =>   '<div id="%1$s" class="widget %2$s">',
@@ -182,7 +182,7 @@ add_action( 'widgets_init', 'techtoday_website_theme_widgets_init' );
  * Enqueue scripts and styles.
  */
 function techtoday_website_theme_scripts() {
-	wp_enqueue_style( 'techtoday-website-theme-style', get_stylesheet_uri(), array(), TECHTODAY_VERSION );
+	wp_enqueue_style( 'techtoday-style', get_stylesheet_uri(), array(), TECHTODAY_VERSION );
 	wp_enqueue_style( 'app-style', get_template_directory_uri() . '/assets/css/app.css');
 	wp_enqueue_style( 'foundations-style', get_template_directory_uri() . '/assets/css/vendor/foundation.min.css');
 
@@ -222,4 +222,9 @@ require get_template_directory() . '/inc/block-editor.php';
  * WooCommerce additions.
  */
 require get_template_directory() . '/inc/woocommerce.php';
+/**
+ * Custom post type additions.
+ */
+require get_template_directory() . '/inc/post-types.php';
+
 
