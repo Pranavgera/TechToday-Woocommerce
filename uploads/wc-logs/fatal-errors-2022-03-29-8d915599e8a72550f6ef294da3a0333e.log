@@ -1,0 +1,8 @@
+2022-03-29T07:30:55+00:00 CRITICAL require(): Failed opening required 'C:\Users\prana\Local Sites\projectdelieverable3\app\public/wp-content/themes/techtoday-website-theme/inc/post-type.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\prana\Local Sites\projectdelieverable3\app\public\wp-content\themes\techtoday-website-theme\functions.php on line 228
+
+2022-03-29T07:30:56+00:00 CRITICAL require(): Failed opening required 'C:\Users\prana\Local Sites\projectdelieverable3\app\public/wp-content/themes/techtoday-website-theme/inc/post-type.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\prana\Local Sites\projectdelieverable3\app\public\wp-content\themes\techtoday-website-theme\functions.php on line 228
+
+2022-03-29T09:50:09+00:00 CRITICAL syntax error, unexpected 'get_template_part' (T_STRING), expecting ';' or ',' in C:\Users\prana\Local Sites\projectdelieverable3\app\public\wp-content\themes\techtoday-website-theme\single-TechToday_Event.php on line 21
+
+2022-03-29T10:14:56+00:00 CRITICAL syntax error, unexpected 'techtoday_website_theme_posted' (T_STRING), expecting ';' or ',' in C:\Users\prana\Local Sites\projectdelieverable3\app\public\wp-content\themes\techtoday-website-theme\archive-TechToday_Event.php on line 31
+
