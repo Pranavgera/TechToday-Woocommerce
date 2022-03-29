@@ -20,9 +20,10 @@
 
 	<?php wp_head(); ?>
 </head>
-
+<!-- functions for opening a body with site content -->
 <body <?php body_class(); ?>>
 	<?php wp_body_open(); ?>
+	<!-- Creating a topbar for store nav links and contact -->
 	<div class="top-bar">
 		<div class="top-bar-home">
 			<a href="emailto:portfolio@pranavgera.com">
@@ -34,16 +35,17 @@
 					(+1)-123-456-1890</span></a>
 		</div>
 		<div class="top-bar-title">
+			<!-- Store nav called in dynamically -->
 			<?php
 			wp_nav_menu( array( 
 				'theme_location' => 'my-store-menu', 
 				'container_class' => 'custom-menu-class' ) ); 
 			?>
-			<a href="<?php echo wc_get_cart_url(); ?>"><i class="fas fa-shopping-cart cart-icon"></i></a>
 		</div>
 	</div>
 	<div class="content">
 	</div>
+	<!-- Main header containing site logo and primary menu -->
 	<div id="page" class="site">
 		<a class="skip-link screen-reader-text"
 			href="#primary"><?php esc_html_e( 'Skip to content', 'techtoday' ); ?></a>
@@ -54,6 +56,7 @@
 			?>
 			</div>
 			<div>
+				<!-- calling in primary menu -->
 				<?php
 		wp_nav_menu(
 				array(
